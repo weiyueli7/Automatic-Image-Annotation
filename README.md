@@ -1,5 +1,7 @@
 # Automatic-Image-Annotation
 
+View the full [report](https://github.com/weiyueli7/Automatic-Image-Annotation/blob/main/report.pdf) for details.
+
 ---
 
 ## Description
@@ -91,6 +93,7 @@ Contributors names and contact info (alphabetical order):
     * shh036@ucsd.edu
 * Wei, Yibo
     * y2wei@ucsd.edu
+
 ---
 
 ## Acknowledgments
