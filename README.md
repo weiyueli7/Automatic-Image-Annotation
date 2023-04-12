@@ -50,7 +50,7 @@ In this project, we trained an algorithm to caption input images. This required 
 
 ### Executing program
 
-1) Go to [DataHub](https://datahub.ucsd.edu/) and create a directory with all of the files in the startercode. Replace the `model_factory.py` and `experiment.py` with our implementations.
+1) Create a directory with all of the files in the startercode. Replace the `model_factory.py` and `experiment.py` with our implementations.
 2) Run the `get_datasets.py`.
 3) Define the configuration for your experiment. See `default.json` to see the structure and available options. You are free to modify and restructure the configuration as per your needs.
 4) Open a new terminal on DataHub, go to the correct directory.
@@ -73,7 +73,7 @@ After finished executing, you will see all of the logs, plots, and models in the
 
 ## Help
 
-It is recommended to set the `num_workers` configuration to `1` if you are running on DataHub; else, it might get easily to go out of memory.
+It is recommended to set the `num_workers` configuration to `1` if you GPU resources is limited; else, it might get easily to go out of memory.
 
 To resume an ongoing experiment, simply run the same command again. It will load the latest stats and models and resume training pr evaluate performance.
 
