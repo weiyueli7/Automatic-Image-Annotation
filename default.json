@@ -1,0 +1,37 @@
+{
+"experiment_name": "lstm_experiment",
+"dataset": {
+"training_ids_file_path": "./train_ids.csv",
+"validation_ids_file_path": "./val_ids.csv",
+"test_ids_file_path": "./test_ids.csv",
+"training_annotation_file_path": "./data/annotations/captions_train2014.json",
+"test_annotation_file_path": "./data/annotations/captions_val2014.json",
+"images_root_dir": "./data/images/",
+"vocabulary_threshold": 2,
+"img_size": 256,
+"batch_size": 64,
+"num_workers": 1
+},
+"experiment": {
+"num_epochs": 10,
+"learning_rate": 5e-4,
+"early_stop": 0
+},
+"model": {
+"hidden_size": 512,
+"embedding_size": 300,
+"model_type": "LSTM",
+"keep_image": false
+},
+"generation": {
+"max_length": 20,
+"deterministic": false,
+"temperature": 0.1
+},
+"transform": {
+"center_crop": 0,
+"horizontal_flip": true,
+"rotation": 10,
+"normalize": true
+}
+}
