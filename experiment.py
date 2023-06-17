@@ -1,11 +1,3 @@
-################################################################################
-# CSE 151B: Programming Assignment 4
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin
-# Winter 2022
-# Implemented by Linghang Kong, Weiyue Li, Yi Li, Shuangmu Hu, and Yibo Wei
-################################################################################
-
 import matplotlib.pyplot as plt
 import numpy as np
 import torch

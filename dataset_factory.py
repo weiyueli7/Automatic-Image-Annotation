@@ -1,10 +1,3 @@
-################################################################################
-# CSE 151B: Programming Assignment 4
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin
-# Winter 2022
-################################################################################
-
 import csv, os
 from torch.utils.data import DataLoader
 from pycocotools.coco import COCO
